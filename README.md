@@ -28,10 +28,10 @@ except ImportError:
     # ... otherwise fallback to this code!
     import pymmh3 as mmh3
     
-print mmh3.hash( 'my string of doom!', seed = 1234 )
-print mmh3.hash64( 'my string of doom!', seed = 1234 )
-print mmh3.hash128( 'my string of doom!', seed = 1234 )
-print mmh3.hash_bytes( 'my string of doom!', seed = 1234 )
+print(mmh3.hash( 'my string of doom!', seed = 1234))
+print(mmh3.hash64( 'my string of doom!', seed = 1234))
+print(mmh3.hash128( 'my string of doom!', seed = 1234))
+print(mmh3.hash_bytes( 'my string of doom!', seed = 1234))
 ```
 
 ## License:

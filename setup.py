@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from distutils.core import setup
+from setuptools import setup
 
 setup(
   name = 'pymmh3',
   packages = ['pymmh3'],
-  version = '0.0.3',
+  version = '0.0.4',
   license='CC0 1.0',
   description = 'Pure python mmh3 implementation compatible with python2 and python3',
   author = 'Ali Ahmed',
