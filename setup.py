@@ -5,12 +5,12 @@ from setuptools import setup
 setup(
   name = 'pymmh3',
   packages = ['pymmh3'],
-  version = '0.0.4',
+  version = '0.0.5',
   license='CC0 1.0',
   description = 'Pure python mmh3 implementation compatible with python2 and python3',
   author = 'Ali Ahmed',
   author_email = 'alahmed.se@gmail.com',
-  url = 'https://github.com/aahmed-se',
+  url = 'https://github.com/aahmed-se/pymmh3',
   keywords = ['mmh3', 'hashing'],
   classifiers=[
     'Development Status :: 3 - Alpha',
